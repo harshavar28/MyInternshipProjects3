@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Product Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>E-commerce Product Page</h1>
+    </header>
+
+    <main>
+        <div class="product-image" id="productImage">
+            <img id="shirtImage" src="fotor-ai-2024022814564.jpg" alt="Product Image">
+            <div class="options">
+                <label>
+                    Size :  
+                    <input type="radio" name="size" class="size-input" id="sizeS">
+                    <label for="sizeS" class="size-label"> S</label>
+
+                    <input type="radio" name="size" class="size-input" id="sizeM">
+                    <label for="sizeM" class="size-label">M</label>
+
+                    <input type="radio" name="size" class="size-input" id="sizeL">
+                    <label for="sizeL" class="size-label">L</label>
+
+                    <input type="radio" name="size" class="size-input" id="sizeXL">
+                    <label for="sizeXL" class="size-label">XL</label>
+                </label>
+                <label>
+                    Color : 
+                    <input type="radio" name="color" class="color-input" id="colorRed">
+                    <label for="colorRed" class="color-label color-red" aria-label="Red"></label>
+
+                    <input type="radio" name="color" class="color-input" id="colorBlue">
+                    <label for="colorBlue" class="color-label color-blue" aria-label="Blue"></label>
+
+                    <input type="radio" name="color" class="color-input" id="colorGreen">
+                    <label for="colorGreen" class="color-label color-green" aria-label="Green"></label>
+                </label>
+            </div>
+        </div>
+
+        <div class="product-details">
+            <h2>Eww T-Shirt</h2>
+            <p>Introducing our latest casual T-shirt...</p>
+            <p class="price"><strong>Price:</strong> ₹49</p>
+            <button>Add to Cart</button>
+        </div>
+    </main>
+
+    <section>
+        <h2>Product Details</h2>
+        <ul>
+            <li><strong>Material:</strong> High-quality material</li>
+            <li><strong>Size:</strong> Available in various sizes (S, M, L, XL)</li>
+            <li><strong>Color:</strong> Multiple color options</li>
+        </ul>
+    </section>
+
+    <section class="reviews">
+        <h2>Customer Reviews</h2>
+        <div class="review">
+            <p><strong>John Doe:</strong> This product exceeded my expectations! Highly recommended.</p>
+        </div>
+        <div class="review">
+            <p><strong>Jane Smith:</strong> Fast shipping and great customer service.</p>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2024 E-commerce Store
+    </footer>
+
+</body>
+</html>
